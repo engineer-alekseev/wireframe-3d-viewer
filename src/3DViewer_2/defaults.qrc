@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>defaults/session.conf</file>
+        <file>defaults/logo.obj</file>
+        <file>defaults/logo_linux.obj</file>
+    </qresource>
+</RCC>

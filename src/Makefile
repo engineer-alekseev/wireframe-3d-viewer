@@ -23,10 +23,6 @@ uninstall:
 clean:
 	rm -rf *.o *.gcno *.gcda *.info *.a $(REPORT_DIR) v_tests run *.dSYM 3DViewer_v_2_0.tar.gz CMakeLists.txt.user 3DViewer_v_2_0
 
-dvi:
-	makeinfo -o report --html --no-warn --no-validate --force doc.texi
-	open report/index.html
-
 dist:
 	tar -czf 3DViewer_v_2_0.tar.gz Makefile doc.texi CMakeLists.txt affine_transformations parser 3DViewer_2 controller.h viewer_test
 	open .
